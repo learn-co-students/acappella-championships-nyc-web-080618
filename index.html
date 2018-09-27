@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="./src/index.js"></script>
     <script src="./src/aCappellaGroup.js"></script>
+    <script src="./src/adapter.js"></script>
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Open+Sans" rel="stylesheet">
   </head>
@@ -18,13 +19,14 @@
         </h2>
       </div>
       <table class='width-75 margin' border="1">
-        <thead class='blue'>
+        <thead class='blue' id="table-head">
           <tr class='padding'>
-            <th class='padding center'>College</th>
-            <th class='padding center'>Group Name</th>
-            <th class='padding center'>Membership</th>
-            <th class='padding center'>Division</th>
+            <th class='padding center' id="college.name">College</th>
+            <th class='padding center' id="name">Group Name</th>
+            <th class='padding center' id="membership">Membership</th>
+            <th class='padding center' id="college.division">Division</th>
             <th class='padding center'>Crown as Winner</th>
+            <th class='padding center'>Delete</th>
           </tr>
         </thead>
         <tbody id="table-body">
