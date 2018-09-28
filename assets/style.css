@@ -48,3 +48,8 @@ th {
   border-width: 1px;
   border-color: grey;
 }
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
